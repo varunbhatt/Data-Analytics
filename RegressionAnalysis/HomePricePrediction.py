@@ -10,7 +10,7 @@ import numpy as np
 #files = os.listdir(cwd)  # Get all the files in that directory
 #print("Files in %r: %s" % (cwd, files))
 
-housing_df = pd.read_csv('housing.csv')
+housing_df = pd.read_csv('../data/housing.csv')
 
 plt.hist(housing_df['median_house_value'], bins=80)
 plt.show()
